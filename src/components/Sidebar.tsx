@@ -28,7 +28,7 @@ type SidebarProps = {
   setMobileOpen: (open: boolean) => void;
 };
 
-const SidebarWrapper = styled(Box)(({ theme }) => ({
+const SidebarWrapper = styled(Box)(({}) => ({
   width: '100%',
   minWidth: 250,
   background: '#0e081b',
